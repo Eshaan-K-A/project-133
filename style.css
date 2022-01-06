@@ -1,0 +1,67 @@
+body{
+    
+
+    background-size: cover;
+    background-image: linear-gradient(to right top, #f8ff00, #ffe027, #ffc345, #ffaa5e, #f29b70, #c5b77a, #9cd7b8, #99e1dc);
+}
+.header
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+border: 1px;
+border-radius: 30px;
+background-color: rgb(206, 156, 183);
+color: rgb(61, 61, 61);
+width: fit-content;
+font-weight: bolder;
+margin-top: 40px;
+font-size: 27;
+background-image: linear-gradient(to right, #33f321 0%, #ff0000  51%, #fffb00  100%)
+}
+
+#status
+{
+font-size: 18px;
+}
+
+
+    .btn-grad {
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 1s;
+       background-size: 200% auto;
+       color: rgb(0, 0, 0);            
+       border-radius: 10px;
+       display: block;
+       font-weight: bolder;
+       width: 250px;
+     }
+
+     
+
+     .btn-grad:hover {
+       background-position: right; /* change the direction of the change here */
+       color: rgb(0, 0, 0);
+       text-decoration: none;
+       background-color: #FF512F;
+       
+     }
+     .back {
+      background-color: black; 
+      float: right;
+      margin-right: 20px;
+      color: cornsilk;
+      font-weight: bolder;
+      margin-top: 20px;
+     }
+
+    
+
+canvas{
+  border-radius: 30px;
+  border: 3px solid black;
+  box-shadow: 10px 15px cornsilk;
+}
